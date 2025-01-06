@@ -9,7 +9,7 @@ export default function Home() {
       <h1 className="text-5xl justify-center items-center flex m-auto">ārambh</h1>
       <span className="justify-end -mt-2 mr-0.5 text-xs">the begining</span>
       </div>
-      <p>Thank you for showing up! The site is under construction.</p>
+      <p className="text-center">Thank you for showing up! The site is under construction.</p>
      
       
     </main>
