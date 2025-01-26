@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width: 768px) {
+  .css-1sz68be {
+      left: 40%;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+  }
+}
+
+.box-ss{
+box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.2);
+}
+.box-ss:hover{
+  box-shadow: 4px 4px 20px rgba(67, 255, 236, 0.334);
+}
+
+::-webkit-scrollbar{
+ display: none;
+}
+.css-1sz68be {
+  margin-top: 6rem ;
+  padding-top: 6rem;
+  position: absolute;
+  /* left: 5%;
+  top: 10%;
+  bottom: 40%;
+  right: 5%; */
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+  overflow: hidden;
+}
+.css-1kuqks0 {
+  background: #FCCD73;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-animation: animation-1211n5o 16s infinite;
+  animation: animation-1211n5o 16s infinite;
+  opacity: 0.4;
+  position: absolute;
+}
+.css-pkrwkm {
+  background: #2EC5B6;
+  width: 700px;
+  height: 700px;
+  left: 60%;
+  top: 40%;
+  border-radius: 50%;
+  -webkit-animation: animation-e37qgv 16s infinite;
+  animation: animation-e37qgv 16s infinite;
+  opacity: 0.5;
+  z-index: -2;
+  position: absolute;
+}
+/* 
+.hero{
+  background-color: #2EC5B6;
+  width: 100%;
+  height: 100vh;
+} */
+
+@keyframes  animation-1211n5o {
+  0% {
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+    -moz-transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+    transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+}
+20% {
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(20%) translateY(-30%);
+    -moz-transform: translateY(-50%) translateX(-50%) translateX(20%) translateY(-30%);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(20%) translateY(-30%);
+    transform: translateY(-50%) translateX(-50%) translateX(20%) translateY(-30%);
+}
+40% {
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(-25%) translateY(15%);
+    -moz-transform: translateY(-50%) translateX(-50%) translateX(-25%) translateY(15%);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(-25%) translateY(15%);
+    transform: translateY(-50%) translateX(-50%) translateX(-25%) translateY(15%);
+}
+60% {
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(30%) translateY(20%);
+    -moz-transform: translateY(-50%) translateX(-50%) translateX(30%) translateY(20%);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(30%) translateY(20%);
+    transform: translateY(-50%) translateX(-50%) translateX(30%) translateY(20%);
+}
+80% {
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(5%) translateY(25%);
+    -moz-transform: translateY(-50%) translateX(-50%) translateX(5%) translateY(25%);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(5%) translateY(25%);
+    transform: translateY(-50%) translateX(-50%) translateX(5%) translateY(25%);
+}
+100% {
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+    -moz-transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+    transform: translateY(-50%) translateX(-50%) translateX(15%) translateY(10%);
+}
+}
+
+
+@keyframes  animation-e37qgv {
+
+0% {
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(-20deg) translateX(20%);
+  -moz-transform: translateY(-50%) translateX(-50%) rotate(-20deg) translateX(20%);
+  -ms-transform: translateY(-50%) translateX(-50%) rotate(-20deg) translateX(20%);
+  transform: translateY(-50%) translateX(-50%) rotate(-20deg) translateX(20%);
+}
+25% {
+  -webkit-transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(80deg) translateX(30%);
+  -moz-transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(80deg) translateX(30%);
+  -ms-transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(80deg) translateX(30%);
+  transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg) rotate(80deg) translateX(30%);
+}
+50% {
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
+  -moz-transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
+  -ms-transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
+  transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
+}
+75% {
+  -webkit-transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(240deg) translateX(15%);
+  -moz-transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(240deg) translateX(15%);
+  -ms-transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(240deg) translateX(15%);
+  transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg) rotate(240deg) translateX(15%);
+}
+100% {
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(340deg) translateX(20%);
+  -moz-transform: translateY(-50%) translateX(-50%) rotate(340deg) translateX(20%);
+  -ms-transform: translateY(-50%) translateX(-50%) rotate(340deg) translateX(20%);
+  transform: translateY(-50%) translateX(-50%) rotate(340deg) translateX(20%);
+}
+}
