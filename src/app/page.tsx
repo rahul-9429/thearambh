@@ -1,19 +1,20 @@
-import Header from "./components/Header";
 import React from "react";
 import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import Cal_meet from "./components/Cal-meet";
+import Info from "./components/Info";
+import Hero_text from "./components/Hero_text";
+import Featured from "./components/Featured";
+import Projects from "./components/Projects";
+
+
 export default function Home() {
  
   return (
     <>
-      <Header />
+      <Hero_text />
       <Hero />
-      <main className="min-h-screen">
-      {/* <Cal_meet /> */}
-
-      </main>
-      <Footer />
+      <Info />
+      <Featured />
+      <Projects />
     </>
   );
 }
